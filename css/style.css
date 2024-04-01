@@ -50,6 +50,9 @@ strong{
     background: #333;
     color: white;
 }
+em{
+    color: #555;
+}
 
 /* VP + HEADER***************************************** */
 /* ce bloc viens contenir le header et l'image hero du site */
@@ -179,4 +182,41 @@ header ul li a:hover{
 .who-content-text h2{
     margin-bottom: 2rem;
     
+}
+
+/* TESTIMONIALS **********************************/
+.testimonials{
+    padding: 5rem 1rem;
+}
+.testimonials-content{
+    display: flex;
+    flex-direction: column;
+}
+.testimonials-elem{
+    flex: 1;
+    background: white;
+    border-radius: 5px;
+    padding: 2rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.testimonials-elem-text{
+    padding: 0 2rem;
+}
+.testimonials-elem-profil{
+}
+.testimonials-elem-profil p{
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+.testimonials-elem-profil img{
+    width: 50px;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+}
+.testimonials-elem-text p i{
+    margin: 0.5rem;
 }
