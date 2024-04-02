@@ -114,6 +114,7 @@ header ul li a:hover{
     max-width: 800px;
     text-align: center;
     color: white;
+    padding: 1rem;
 }
 .vp-content h1{
     font-size: 3.2rem;
@@ -134,7 +135,6 @@ header ul li a:hover{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
-
 }
 .offer-elem{
     border: 1px solid #ddd;
@@ -163,9 +163,7 @@ header ul li a:hover{
 }
 .who-content-img{
     flex: 1;
-}
-.who-content-img img{
-    width: 100%;
+    background: url(../img/team.jpg) center center/cover;
 }
 .who-content-text{
     flex: 1;
